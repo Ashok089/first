@@ -1,0 +1,436 @@
+body 
+{
+
+    background-color: rgb(196, 196, 229);
+}
+
+header
+{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/14/52/beach-1845810_1280.jpg");
+    background-size: cover;    /*  cover the available space and make it no-repeat image. */
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 720px;
+    border-radius: 5px;
+
+}
+
+
+.nav {
+       margin-top: 10px;  
+       display: flex;
+       justify-content: space-between; 
+}
+
+
+.heading
+{
+
+    font-size:30px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 20px
+    
+}
+
+.button
+{
+   margin-left: 10px ;
+   padding: 5px 10px;
+   border-radius: 5px;
+   background-color:  rgb(236, 223, 245);
+   border: 0px;
+   font-weight: 700;
+   transition:1s ;
+   
+}
+
+.button:hover 
+{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 30px black ;
+    background-color: rgb(236, 223, 245);
+  
+}
+
+.list
+{
+    display: flex;
+    flex-direction: row;
+    font-weight: 100px;
+    font-size: 20px;
+
+   
+   
+}
+
+.list li 
+{ 
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+
+.list li:hover
+{
+    background: #252525;
+    color: rgb(237, 121, 237);
+  
+  
+}
+
+.tag
+{
+    margin-left: 30px;
+    font-size: 60px;
+}
+
+
+
+
+.collect
+{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.div
+{
+    background-color: white;
+    height:186px;
+    width:186px;
+    border-radius:3px;
+    border: rgb(76, 74, 74) 5px solid;
+    box-shadow: 6px 8px 10px black;
+    transition: 0.7s;
+    transition-delay: 0.3s;
+
+}
+.divv
+{
+    background-color: white;
+    height:186px;
+    width:186px;
+    border-radius:3px;
+    border: rgb(76, 74, 74) 5px solid;
+    box-shadow: 6px 8px 10px black;
+    transition: 0.7s;
+    transition-delay: 0.3s;
+
+}
+.divvv
+{
+    background-color: white;
+    height:186px;
+    width:186px;
+    border-radius:3px;
+    border: rgb(76, 74, 74) 5px solid;
+    box-shadow: 6px 8px 10px black;
+    transition: 0.7s;
+    transition-delay: 0.3s;
+
+}
+.divvvv
+{
+    background-color: white;
+    height:186px;
+    width:186px;
+    border-radius:3px;
+    border: rgb(76, 74, 74) 5px solid;
+    box-shadow: 6px 8px 10px black;
+    transition: 0.7s;
+    transition-delay: 0.3s;
+
+}
+
+
+.food
+{
+  
+    height: 80px;
+    width:80px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+    margin-left:48px;
+     box-shadow: 2px 4px 5px black;
+
+}
+
+.div:hover 
+{
+    background-color: rgb(243, 225, 196);
+    transform: translateY(-30px);
+}
+
+.car
+{
+  
+    height: 80px;
+    width:80px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+    margin-left:48px;
+    box-shadow: 2px 4px 5px black;
+    
+}
+
+.divv:hover
+{
+    background-color: rgb(243, 225, 196);  
+      transform: translateY(-30px);
+}
+
+
+.ticket
+{
+  
+    height: 80px;
+    width:80px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+    margin-left:48px;
+    box-shadow: 2px 4px 5px black;
+
+  
+}
+
+.divvv:hover
+{
+    background-color: rgb(243, 225, 196);
+    transform: translateY(-30px);
+}
+
+
+
+.mountain
+{
+  
+    height: 80px;
+    width:80px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+    margin-left:48px;
+    box-shadow: 2px 4px 5px black;
+
+  
+}
+
+.divvvv:hover
+{
+    background-color: rgb(243, 225, 196);
+    transform: translateY(-30px);
+}
+
+
+
+p
+{ 
+   font-weight: bolder;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.line
+{
+  font-weight: bolder;
+  margin-left: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 12px;
+}
+
+P 
+{
+    text-align: center; 
+    font-weight: bolder;
+}
+
+.detail 
+{
+   color:white ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   font-weight: bolder;
+   margin : 20px 20px;
+   text-align: left;
+}
+  
+.li
+{
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    line-height: 12px;
+}
+
+
+.photo
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 50px;
+
+
+}
+
+.img
+{
+
+    height:600px;
+    width:400px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 1s;
+ 
+    
+
+}
+
+.imgg
+{
+
+    height:600px;
+    width:400px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 1s;
+
+}
+
+.imggg
+{
+
+    height:600px;
+    width:400px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.p
+{
+   transform: translateY(-600px);
+   color: white;
+   margin-left: 15px;
+   text-shadow: 1px 1px 3px white ;
+}
+
+
+.img:hover
+{
+  
+   box-shadow: 4px 6px 8px black;
+}
+
+.imgg:hover
+{
+  
+   box-shadow: 4px 6px 8px black;
+}
+.imggg:hover
+{
+  
+   box-shadow: 4px 6px 8px black;
+}
+
+.star label
+{
+    color: lightgray;
+    float: right;
+    margin: 0 5px;
+    transform: translateX(-235px);
+    font-size:30px ;
+
+}
+
+.star input
+{
+    display: none;
+}  
+
+.star input:checked ~ label
+{
+    color:gold;
+}
+
+.linn
+{
+  font-weight: bolder;
+  margin-left: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 5px;
+  text-align: center;
+}
+
+.lisbon ,  .austria , .spain, .iceland
+{
+    height: 500px;
+    width: 700px;
+    padding: 15px 15px;
+    border-radius: 55px;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    
+   
+
+}
+
+.lisbon:hover ,  .austria:hover, .spain:hover, .iceland:hover
+{
+    box-shadow: 4px 6px 8px black ;
+
+}
+.lisbon:hover , .PP
+
+{
+    text-shadow: 1px 1px 3px black ;
+
+}
+
+
+
+.ltext
+{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-right: 30px;
+    font-size: 20px;
+    transform: translateY(50px);
+}
+
+
+.ltex
+{
+    float: right;
+    height: 300px;
+    width: 300px;
+    margin-right: 30px;
+    font-size: 25px;
+    transform: translateY(20px);
+}
+
+.PP
+{
+   transform: translateX(-30px);
+}
+
+ 
+  
